@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h4>
+            {{ customer_record.first_name }}
+            {{ customer_record.last_name }}
+        </h4>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <th scope="row">Email:</th>
+                    <td>{{ customer_record.email }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Phone:</th>
+                    <td>{{ customer_record.phone }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Address:</th>
+                    <td>{{ customer_record.address }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">City:</th>
+                    <td>{{ customer_record.city }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">State:</th>
+                    <td>{{ customer_record.state }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Zipcode:</th>
+                    <td> {{ customer_record.zipcode }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div> 
+</div>
+</br>
+<a href="{% url 'home' %}" class="btn btn-secondary">Back</a>
+<a href="{% url 'home' %}" class="btn btn-danger">Delete</a>
+{% endblock content %}
