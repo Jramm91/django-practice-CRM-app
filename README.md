@@ -2,16 +2,16 @@
 This is a CRM (Customer Relationship Management) app built using Django.
 
 ## Features
-* __User authentication:__ Users can register, log in, and log out.
-* __Contact management:__ Users can create, update, and delete contacts.
-* __Dashboard:__ Users can view a dashboard with contact information such as phone number and address
+* **User authentication:** Users can register, log in, and log out.
+* **Contact management:** Users can create, update, and delete contacts.
+* **Dashboard:** Users can view a dashboard with contact information such as phone number and address
 
 ## Installation
 1. Clone the repository.
 2. Create a virtual environment and activate it.
-3. Install the dependencies from the __`requirements.txt`__ file using __`pip`__.
-4. Set up the database by running __`python manage.py migrate`__.
-5. Create a superuser by running __`python manage.py createsuperuser`__.
+3. Install the dependencies from the **`requirements.txt`** file using **`pip`**.
+4. Set up the database by running **`python manage.py migrate`**.
+5. Create a superuser by running **`python manage.py createsuperuser`**.
 6. Run the development server using **`python manage.py runserver`**.
 
 ## Usage
