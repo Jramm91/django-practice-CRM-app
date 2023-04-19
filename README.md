@@ -12,7 +12,7 @@ This is a CRM (Customer Relationship Management) app built using Django.
 3. Install the dependencies from the __`requirements.txt`__ file using __`pip`__.
 4. Set up the database by running __`python manage.py migrate`__.
 5. Create a superuser by running __`python manage.py createsuperuser`__.
-6. Run the development server using __`python manage.py runserver__`.
+6. Run the development server using **`python manage.py runserver`**.
 
 ## Usage
 1. Log in to the app using your superuser account.
