@@ -16,7 +16,7 @@ This is a CRM (Customer Relationship Management) app built using Django.
 
 ## Usage
 1. Log in to the app using your superuser account.
-2. Use the navigation menu to access the contact management, task management, and dashboard features.
+2. Use the navigation menu to access the contact management and dashboard features.
 
 ## Technologies Used
 * Django
